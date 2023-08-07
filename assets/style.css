@@ -1,0 +1,296 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu , sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+a{
+    text-decoration: none;
+    color: #07245F;
+}
+
+/* header start */
+header {
+    background-color:  #EFF4FE;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .tft-site-logo-container {
+    background-color: #07245F;
+    width: 533px;
+    height: 151px;    
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+  
+}
+
+header .tft-site-logo-container .tft-site-img-logo {
+    max-width: 235px;
+    height: auto;
+    margin-right: 3rem;
+}
+
+.tft-site-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+ 
+  }
+
+  /* top menu style */
+
+  .tft-site-top-bar {
+    background: linear-gradient(0deg, #0E3DD8, #0E3DD8),
+    linear-gradient(0deg, #1342E0, #1342E0);
+    height: 55px;
+    clip-path: polygon(3% 0, 100% 0%, 100% 100%, 0 100%);
+    padding: 0 3rem;
+    color:  #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+
+  .tft-site-top-bar-left-item {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .tft-site-top-bar-left {
+    display: flex;
+    gap: 1rem;
+  }
+  .tft-site-top-bar-left-item a {
+    color: #fff;
+  }
+  .tft-site-top-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .tft-site-languages select {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+  .tft-site-login a {
+    color: #fff;
+   
+  }
+
+  .tft-site-languages select option {
+    color: #fff;
+    background: #000;
+  }
+  /* main menu style*/
+
+  .tft-site-menu {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 0 3rem;
+    justify-content: space-between;
+  }
+  .tft-site-menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-underline-offset: initial;
+    text-underline-position: under;
+    color :#000000;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+
+  
+.tft-site-menu-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.tft-menu-cart {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+}
+.tft-menu-bars {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+}
+.tft-menu-search {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+}
+.tft-site-menu-discover .tfc-site-menu-discover-btn {
+  display: flex;
+  background-color: #FF6B00;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+}
+
+
+
+/* 
+Footer style
+
+*/
+
+
+/* top footer start */
+.tft-site-footer-top {
+  background-image: url(./images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0;
+  color: #fff;
+
+}
+
+
+.tft-site-container {
+  max-width: 1212px;
+  margin: 0 auto;
+}
+.tft-site-footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tft-site-footer-item-content a {
+  color: #9AA0AA;
+}
+.tft-site-footer-item-title {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+}
+.tft-site-footer-item-content ul {
+  list-style: none;
+}
+.tft-site-footer-item-content ul li {
+  margin: 0.75rem 0;
+}
+.tft-site-footer-item-title::after {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  background-color: #ffffff;
+  bottom: 0;
+}
+.tft-site-footer-item-title {
+  position: relative;
+}
+
+.tft-site-footer-newsletter {
+  position: relative;
+  display: block;
+  margin: 1rem 0;
+  width: 250px;
+}
+.tft-site-footer-newsletter input{
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  background-color: #203453;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.tft-site-footer-newsletter img {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tft-site-footer-newsletter-form button {
+  max-width: 180px;
+  padding: 0.75rem 1.5rem;
+  background: #0E3DD8;
+  color: white;
+  border: navajowhite;
+  border-radius: 50px;
+}
+
+
+.tft-footer-site-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.tft-footer-contact-info * {
+  color: #fff;
+ 
+}
+.tft-footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+.tft-footer-location h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.tft-footer-location P {
+  color: #9AA0AA;
+}
+
+/* Top footer end */
+
+/* bottom footer start */
+
+.tft-footer-bottom{
+  /* two color left is red & right is blue background */
+  background: linear-gradient(
+    to right,
+    #132847 0%,
+    #132847 70%,
+    #0E3DD8 70%,
+    #0E3DD8 100%
+  );
+  padding: 2rem 0;
+}
+
+.tft-site-copy-right * {
+  color: #fff;
+}
+
+
+.tft-footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.tft-footer-bottom-links ul {
+  list-style: none;
+  display: flex;
+}
+.tft-footer-bottom-links ul li {
+  margin-right: 2rem;
+}
+.tft-footer-bottom-links ul li a {
+  color: #fff;
+}
