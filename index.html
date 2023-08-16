@@ -106,7 +106,28 @@
         <div class="tft-banner-container">
             <!-- banner slider start -->
 
-            <div class="tft-banner-slider-item" style="background-image: url(assets/images/slider-image-1.jpg);">
+            <div class="tft-banner-slider-item " style="background-image: url(assets/images/slider-image-1.jpg);">
+
+
+
+                <!-- <img class="tft-slider-item-image" src="assets/images/slider-image-1.jpg" alt="banner"> -->
+                <div class="tft-banner-slider-item-content">
+                    <h2 class="tft-slider-item-title">
+                        <span class="tft-subtitle">
+                            Experience Central Park via Air Trips
+                        </span>
+                        Discover The World
+                    </h2>
+                    <button class="tft-slider-item-button">
+                        <a href="">
+                            <span>Discover More</span>
+                            <img src="assets/images/arrow.svg" alt="arrow">
+                        </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="tft-banner-slider-item" style="background-image: url(assets/images/footer-bg.png);">
 
 
 
@@ -130,9 +151,9 @@
 
             <!-- dots -->
             <div class="tft-slider-dots">
-                <span class="tft-slider-single-dot"></span>
-                <span class="tft-slider-single-dot"></span>
-                <span class="tft-slider-single-dot"></span>
+                <span class="tft-slider-single-dot" onclick="currentSlide(1)"></span>
+                <span class="tft-slider-single-dot" onclick="currentSlide(2)"></span>
+                <span class="tft-slider-single-dot" onclick="currentSlide(3)"></span>
             </div>
 
             <!-- share icons  -->
@@ -257,6 +278,8 @@
         </div>
 
     </footer>
+    <!-- js -->
+    <script src="assets/index.js"></script>
 </body>
 
 </html>
